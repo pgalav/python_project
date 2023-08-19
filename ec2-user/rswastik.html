@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <center>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    </center>
+</head>
+<body bgcolor="pink">
+<center>
+    <h1>swastik pattern</h1>
+		
+		
+    <py-script  bgcolor="pink" >
+        n=11
+for i in range(n):
+    for j in range(n):
+        if j==0 and i < 5 \
+                or j==10 and i >5 \
+                or i==0 and j>5 \
+                or i==10 and j<5 \
+                or i==5 or j==5 \
+                or i==2 and j==2 or i==2 and j==8 \
+                or i==8 and j==2 or i==8 and j==8:
+            print("#  ", end="")
+        else:
+            print("   ", end="")
+
+    print("\r")
+    </py-script>
+    <a href="login.html">
+		<button>home page</button>
+	</a>
+    <a href="cswastik.html">
+		<button>back to code</button>
+	</a>
+</center>
+<br><br>
+<div>By-YASHWANT GALAV</div>  
+</body>
+</html>

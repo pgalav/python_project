@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+
+<fieldset>
+<h2>
+<pre>
+def pattern(n):
+    k = n - 1
+    for i in range(0, n):
+        for j in range(0, k):
+            print(end="  ")
+        k -=  1
+        for j in range(0, i + 1):
+            print("* ", end="")
+        for j in range(0, i + 1):
+            print("* ", end="")
+        print("\r")
+    k = n
+    for i in range(0, n):
+        for j in range(0, i):
+            print(end="  ")
+        for j in range(0,k ):
+            print("* ", end="")
+        for j in range(0,k ):
+            print("* ", end="")
+        k-= 1
+        print("\r")
+pattern(10)
+</pre>
+</h2>
+</fieldset>
+
+</body>
+<a href="rpattern_diamond.html">
+    <button>run code</button>
+</a>
+<a href="login.html">
+    <button>home page</button>
+</a>
+<br><br>
+<div>By-YASHWANT GALAV</div>
+</html>

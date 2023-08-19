@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <center>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    </center>
+</head>
+<body bgcolor="pink">
+<center>
+    <h1>pattern triangle </h1>
+		
+		
+    <py-script  bgcolor="pink" >
+    def pettern(n):
+        k = n - 1
+        for i in range(0, n):
+            for j in range(0, k):
+                print(end="  ")
+            k -=  1
+            for j in range(0, i + 1):
+                print("# ", end="")
+            print("\r")
+    pettern(10)
+    </py-script>
+    <a href="login.html">
+		<button>home page</button>
+	</a>
+    <a href="cpattern_triangle.html">
+		<button>back to code</button>
+	</a>
+</center>
+<br><br>
+<div>By-YASHWANT GALAV</div>  
+</body>
+</html>
